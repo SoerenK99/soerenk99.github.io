@@ -61,13 +61,15 @@ h6 {
   line-height: 1.2;
   margin-top: 0;
   margin-bottom:20px;
-  color: #071e55;
+  //color: #071e55;
   font-weight: 700;
   font-family: 'Bitter', serif;
+	color:white;
 }
 
 h1 {
-	font-size: 45px;
+	font-size: 65px;
+	color:white;
 }
 
 h2 {
@@ -115,7 +117,7 @@ iframe {
 	font-family: 'Bitter', serif;
 	font-size: 28px;
 	font-weight: 700;
-	color: #e52f37;
+	color: white;
 }
 
 .navbar-brand img {
@@ -212,12 +214,15 @@ ul.footer-icons li a.instagram{
 	z-index: 1;
   	padding-top: 50px;
   	padding-bottom: 10px;
-  	background: url(../images/bg10.jpg) top center no-repeat;
-	background-size: cover;
+}
+body {
+    background: url(../images/bg10.jpg) top center no-repeat;
+    background-size: 100% 1080px;
+    height: 100%;
 }
 .banner-area-overlay{
 	z-index: -1;
-	background: #000000ad;
+    background: rgba(30, 0, 60, 0.3);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -404,6 +409,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 		width: 100%;
 		max-width: 768px;
 		text-align: center!important;
+		color: white;
 	}
 
 	.banner-area{
