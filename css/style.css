@@ -217,7 +217,7 @@ ul.footer-icons li a.instagram{
 }
 body {
     background: url(../images/bg10.jpg) top center no-repeat;
-    background-size: 100% 1080px;
+    background-size: 100% 100%;
     height: 100%;
 }
 .banner-area-overlay{
